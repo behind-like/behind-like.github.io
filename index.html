@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="./img/favicon.ico">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+  		<meta name="description" content="『54字の物語』重版記念！54字詰めの原稿用紙で物語をつくりましょう！" />
+  		<meta name="keywords" content="いいねにかくれた物語,写真,手カメラ, 白黒, 加工, Twitter" />
+  		<meta name="author" content="" />
+  		<meta name="generator" content="Sublime Text 3" />
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  		<meta property="og:title" content="いいねにかくれた物語" />
+  		<meta property="og:type" content="website" />
+  		<meta property="og:site_name" content="いいねにかくれた物語" />
+  		<meta property="og:description" content="『54字の物語』重版記念！54字詰めの原稿用紙で物語をつくりましょう！" />
+  		<meta name="format-detection" content="telephone=no" />
+		<title>#いいねにかくれた物語</title>
+		<script src="main.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<div id="wrapper">
+				<div class="logo">
+					<img src="./img/logo4.png" id="logo">
+				</div>
+				<label for="file">
+					写真をアップロード
+					<input type="file" id="file" width="80"/>
+				</label>
+				<div class="canvas_wrapper">
+					<canvas id="canvas1" class="canvas" width="550" height="550"></canvas>
+					<canvas id="canvas2" class="canvas" width="800" height="800"></canvas>
+				</div>
+				<p>
+					<textarea id="story" class="story " placeholder="改行を押すと、物語も改行されるよ" maxlength="140" cols="17"></textarea>
+				</p>
+				<a id="btn" class="btn btn-save" download="いいねにかくれた物語">画像を保存</a>
+				<div id="expl">
+					<h3>#いいねにかくれた物語</h3>
+					<h4>見慣れた日常の裏には、<br>見過ごせない物語があるはずです。</h4>
+					<h4>あなたがのぞいた世界を、<br>140字以内で教えてください！</h4>
+				</div>
+				<div class="sampleImg">
+					<h3> SAMPLE </h3>
+					<img src="./img/sample1.jpg" id="sample">
+					<img src="./img/sample2.jpg" id="sample">
+					<img src="./img/sample3.jpg" id="sample">
+				</div>
+		</div>
+	</body>
+</html>

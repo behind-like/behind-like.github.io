@@ -1,0 +1,161 @@
+body {
+	text-align: center;
+	background: linear-gradient(-45deg, #d1fdff, #fddb92, #efefef, #bcbcbc);
+
+  	background-size: 1500% 1500%;
+  	animation: GradationTest 75s infinite;
+	display: block;
+	margin: 0;
+	font-size: 16px;
+	font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+	word-wrap: break-word;
+}
+
+@Keyframes GradationTest {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#wrapper {
+	box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    max-width: 550px;
+}
+
+#logo {
+	border-radius: 6px;
+	width: 100%;
+	height: 100%;
+}
+
+.logo {
+	text-align: center;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+a {
+  color: #1ea4fc;
+}
+
+label > input {
+	display:none;	/* アップロードボタンのスタイルを無効にする */
+}
+label {
+	color: #fff;	/* ラベルテキストの色を指定する */
+	background-color: #ff1493;/* ラベルの背景色を指定する */
+	padding: 10px;	/* ラベルとテキスト間の余白を指定する */
+	border: double 2px #AAAAAA;/* ラベルのボーダーを指定する */
+	border-radius: 6px;
+	width: 100%;
+	height: 50px;
+	font-weight: bold;
+}
+
+.canvas_wrapper {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.canvas {
+	display: block;
+	width: 100%;
+	border: #a8a8a8 3px solid;
+}
+
+
+#canvas1 {
+	position: absolute;
+	z-index: 1;
+}
+
+#canvas2 {
+	position: absolute;
+	z-index: 2;
+	bottom: ;
+}
+
+
+#story {
+	position: relative;
+	top: 570px;
+	left: 3px;
+	margin: auto;
+	border-radius: 6px;
+	width: 100%;
+	height: 180px;
+	background: #fff;
+	box-shadow: 0, 0, 2px, rgba(0, 0, 0, .2) inset;
+	overflow: hidden;
+	text-align: left;
+	font-size: 20px;
+}
+
+#story :focus {
+  outline: none;
+}
+
+p {
+	position: relative;
+}
+
+#btn {
+  position: absolute;
+  top: 950px;
+  left: 22px;
+  width: 90%;
+  display: block;
+  border-bottom: solid #333 4px;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: .2em;
+  text-decoration: none;
+  text-align: center;
+  background-color: #4682b4;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+  user-select: none;
+}
+
+#expl {
+	position: absolute;
+	width: 100%;
+	top: 1030px;
+	left: 3px;
+	background-color: #fff;
+	border-radius: 6px;
+	border: solid #333 4px;
+}
+
+.sampleImg {
+	position: absolute;
+	top: 1250px;
+  	left: 22px;
+  	display: block;
+  	text-align: center;
+}
+
+#sample {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+
+background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+
+
